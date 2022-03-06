@@ -1,0 +1,41 @@
+.ReactTable {
+  border: initial !important;
+}
+.ReactTable .rt-thead.-filters input {
+  border-radius: var(--border-radius);
+  outline: initial !important;
+  box-shadow: initial !important;
+  font-size: 0.8rem !important;
+  padding: 0.7rem 0.75rem 0.65rem 0.75rem !important;
+  line-height: 1.5 !important;
+  border: 1px solid var(--primary-color) !important;
+  color: var(--primary-color) !important;
+}
+.ReactTable .scrollbar-container {
+  margin: initial;
+  padding: initial;
+}
+
+.ReactTable .rt-th,
+.ReactTable .rt-td {
+  padding-top: 20px !important;
+  padding-bottom: 10px !important;
+}
+.react-table-fixed-height {
+  height: 500px !important;
+}
+.ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: 1px solid var(--primary-color) !important;
+}
+.ReactTable .rt-thead .rt-th.-sort-desc,
+.ReactTable .rt-thead .rt-td.-sort-desc {
+  box-shadow: inset 0 -3px 0 0 var(--primary-color) !important;
+}
+
+.ReactTable .rt-thead .rt-th.-sort-asc,
+.ReactTable .rt-thead .rt-td.-sort-asc {
+  box-shadow: inset 0 3px 0 0 var(--primary-color) !important;
+}
+.ReactTable .rt-tbody .rt-tr-group {
+  border-bottom: 1px solid var(--primary-color) !important;
+}
